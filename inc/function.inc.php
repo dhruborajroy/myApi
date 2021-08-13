@@ -38,8 +38,8 @@ function send_email($email,$html,$subject){
 	$mail->Port=587;
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
-	$mail->Username="hackerdhrubo99@gmail.com";
-	$mail->Password="Dhrubo123Dhrubo";
+	$mail->Username="YOUR_USERNAME@gmail.com";
+	$mail->Password="PASSWORD";
 	$mail->addAddress($email);
 	$mail->IsHTML(true);
 	$mail->Subject=$subject;
